@@ -40,4 +40,18 @@ const catalogoAutomoviles = [
     }
 ];
 
-console.log(catalogoAutomoviles);
+
+app.get("/", (req, res) => {
+    res.send("Microservicio de catálogo de automóviles");
+});
+
+
+app.get("/automoviles", (req, res) => {
+    res.json(catalogoAutomoviles);
+});
+
+const PORT = process.env.PORT || 3000;
+
+app.listen(PORT, () => {
+    console.log("Servidor funcionando en el puerto " + PORT);
+});
