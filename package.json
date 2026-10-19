@@ -1,0 +1,12 @@
+{
+  "name": "catalogo-automoviles",
+  "version": "1.0.0",
+  "description": "Catalogo de Automoviles",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
