@@ -42,7 +42,7 @@ const catalogoAutomoviles = [
 
 
 app.get("/", (req, res) => {
-    res.send("Microservicio de catálogo de automóviles");
+    res.send("Catálogo de automóviles");
 });
 
 
